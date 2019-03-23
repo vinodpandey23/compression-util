@@ -4,12 +4,12 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression.util;
+package com.compression.util;
 
-import static com.agoda.compression.constants.CompressionUtilConstants.DEFAULT_COMP;
-import static com.agoda.compression.constants.CompressionUtilConstants.FS_FILE_HEAER_SIZE;
-import static com.agoda.compression.constants.CompressionUtilConstants.INDEX_FORMAT;
-import static com.agoda.compression.constants.CompressionUtilConstants.SPLIT_FILE_ID;
+import static com.compression.constants.CompressionUtilConstants.DEFAULT_COMP;
+import static com.compression.constants.CompressionUtilConstants.FS_FILE_HEAER_SIZE;
+import static com.compression.constants.CompressionUtilConstants.INDEX_FORMAT;
+import static com.compression.constants.CompressionUtilConstants.SPLIT_FILE_ID;
 import static java.nio.file.StandardOpenOption.CREATE;
 import static java.nio.file.StandardOpenOption.READ;
 import static java.nio.file.StandardOpenOption.WRITE;

@@ -4,12 +4,12 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression.util;
+package com.compression.util;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
@@ -63,8 +63,13 @@ public enum ConfigUtil {
 		 * read property file using input stream and load all configuration properties
 		 * that can be used later
 		 */
-		try (InputStream inStream = Files.newInputStream(Paths.get("resources.properties"))) {
+		ClassLoader classLoader = getClass().getClassLoader();
+
+		try (InputStream inStream = new FileInputStream(
+				new File(classLoader.getResource("resources.properties").getFile()))) {
+
 			properties.load(inStream);
+
 		} catch (IOException e) {
 			System.err.println("error while reading property file: " + e.getMessage());
 			LOG.fatal("error while reading property file", e);

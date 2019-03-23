@@ -4,7 +4,7 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression.model;
+package com.compression.model;
 
 /**
  * Model class for input parameters for compression process

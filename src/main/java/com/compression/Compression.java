@@ -4,14 +4,14 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression;
+package com.compression;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-import com.agoda.compression.model.CompressionInput;
-import com.agoda.compression.model.DecompressionInput;
+import com.compression.model.CompressionInput;
+import com.compression.model.DecompressionInput;
 
 /**
  * Abstract class for compression implementations

@@ -4,16 +4,16 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression.test;
+package com.compression.test;
 
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
-import com.agoda.compression.model.CompressionInput;
-import com.agoda.compression.model.DecompressionInput;
-import com.agoda.compression.util.CompressionUtil;
+import com.compression.model.CompressionInput;
+import com.compression.model.DecompressionInput;
+import com.compression.util.CompressionUtil;
 
 /**
  * Test class for CompressionUtil

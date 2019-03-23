@@ -4,14 +4,14 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression.factory;
+package com.compression.factory;
 
-import static com.agoda.compression.constants.CompressionUtilConstants.JAVA_DEFAULT_ZIP;
+import static com.compression.constants.CompressionUtilConstants.JAVA_DEFAULT_ZIP;
 
 import org.apache.log4j.Logger;
 
-import com.agoda.compression.Compression;
-import com.agoda.compression.impl.ZipJavaDefaultCompression;
+import com.compression.Compression;
+import com.compression.impl.ZipJavaDefaultCompression;
 
 /**
  * Factory class for all compression implementation classes

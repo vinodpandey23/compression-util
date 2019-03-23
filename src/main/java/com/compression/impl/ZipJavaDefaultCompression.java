@@ -4,14 +4,14 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression.impl;
+package com.compression.impl;
 
-import static com.agoda.compression.constants.CompressionUtilConstants.COMPRESS;
-import static com.agoda.compression.constants.CompressionUtilConstants.DEFAULT_COMP;
-import static com.agoda.compression.constants.CompressionUtilConstants.INDEX_FORMAT;
-import static com.agoda.compression.constants.CompressionUtilConstants.PART_POSTFIX;
-import static com.agoda.compression.constants.CompressionUtilConstants.SPLIT_FILE_ID;
-import static com.agoda.compression.constants.CompressionUtilConstants.ZIP_EXTN;
+import static com.compression.constants.CompressionUtilConstants.COMPRESS;
+import static com.compression.constants.CompressionUtilConstants.DEFAULT_COMP;
+import static com.compression.constants.CompressionUtilConstants.INDEX_FORMAT;
+import static com.compression.constants.CompressionUtilConstants.PART_POSTFIX;
+import static com.compression.constants.CompressionUtilConstants.SPLIT_FILE_ID;
+import static com.compression.constants.CompressionUtilConstants.ZIP_EXTN;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 import java.io.File;
@@ -31,8 +31,8 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import com.agoda.compression.Compression;
-import com.agoda.compression.util.CommonUtils;
+import com.compression.Compression;
+import com.compression.util.CommonUtils;
 
 /**
  * Java's default compression implementation class. Compression and

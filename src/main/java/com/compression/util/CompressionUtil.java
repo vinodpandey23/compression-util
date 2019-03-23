@@ -4,18 +4,18 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression.util;
+package com.compression.util;
 
-import static com.agoda.compression.constants.CompressionUtilConstants.COMPRESS;
-import static com.agoda.compression.constants.CompressionUtilConstants.DECOMPRESS;
-import static com.agoda.compression.constants.CompressionUtilConstants.DEFAULT_COMP;
+import static com.compression.constants.CompressionUtilConstants.COMPRESS;
+import static com.compression.constants.CompressionUtilConstants.DECOMPRESS;
+import static com.compression.constants.CompressionUtilConstants.DEFAULT_COMP;
 
 import org.apache.log4j.Logger;
 
-import com.agoda.compression.Compression;
-import com.agoda.compression.factory.CompressionImpFactory;
-import com.agoda.compression.model.CompressionInput;
-import com.agoda.compression.model.DecompressionInput;
+import com.compression.Compression;
+import com.compression.factory.CompressionImpFactory;
+import com.compression.model.CompressionInput;
+import com.compression.model.DecompressionInput;
 
 /**
  * Compression Utility Class for compression and decompression related

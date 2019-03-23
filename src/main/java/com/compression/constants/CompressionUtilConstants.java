@@ -4,9 +4,9 @@
  * @createdAt 05-OCT-2019
  *
  */
-package com.agoda.compression.constants;
+package com.compression.constants;
 
-import com.agoda.compression.util.ConfigUtil;
+import com.compression.util.ConfigUtil;
 
 /**
  * Class for all constants and enums used in CompressionUtil tool
