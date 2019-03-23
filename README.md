@@ -4,9 +4,9 @@ compression and decompression using java zipfs
 This tool helps in compression and decompression operations.
 
 Use below command on console to run the tool:
-==========================================================================
-java -Dlog4j.configuration=file:log4j.properties -jar compression-util-0.0.1-SNAPSHOT.jar
-==========================================================================
+
+# java -Dlog4j.configuration=file:log4j.properties -jar compression-util-0.0.1-SNAPSHOT.jar
+
 Note: Keep resources.properties and log4j.properties along with executable JAR file.
 
 Supported Operations:
